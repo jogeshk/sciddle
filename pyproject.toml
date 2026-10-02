@@ -1,0 +1,22 @@
+[project]
+name = "sciddle"
+version = "0.1.0"
+
+description = "A local-first 2D spatial graph document extraction engine that represents documents as elements, geometry, layout, and spatial relationships for structured document understanding."
+
+requires-python = ">=3.10"
+
+license = {text = "MIT"}
+
+authors = [
+    {name = "Jogesh"}
+]
+
+readme = "README.md"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8"
+]
